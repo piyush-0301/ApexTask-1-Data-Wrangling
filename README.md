@@ -2,25 +2,56 @@
 Data cleaning and preprocessing using Python (Pandas)
 # 📊 Data Wrangling Task (Task 1)
 
-## Objective
-Clean and prepare raw dataset for analysis.
+## 📌 Objective
+To clean and prepare raw dataset for analysis using Python (Pandas).
 
-## Steps Performed
-- Handled missing values using median and mode
+---
+
+## 📂 Dataset Description
+The dataset contains customer purchase information including:
+- Age
+- Gender
+- Purchase Amount
+- City
+- Subscription status
+
+---
+
+## ⚙️ Steps Performed
+
+### 1. Data Understanding
+- Loaded dataset using pandas
+- Checked structure using `.info()` and `.describe()`
+
+### 2. Data Quality Assessment
+- Identified missing values
+- Checked duplicates
+- Detected outliers
+
+### 3. Data Cleaning
+- Filled missing values using median and mode
 - Removed outliers (Age > 100)
-- Capped extreme values in Purchase Amount
-- Cleaned categorical data
+- Capped extreme purchase values
 
-## Files Included
-- messy_dataset.csv (raw data)
-- cleaned_dataset.csv (final data)
-- data_dictionary.csv (column details)
-- cleaning_script.ipynb (code)
+### 4. Final Output
+- Clean dataset ready for analysis
 
-## Tools Used
+---
+
+## 📁 Files Included
+- messy_dataset.csv → Raw data
+- cleaned_dataset.csv → Cleaned data
+- data_dictionary.csv → Column details
+- APEXTASK1.ipynb → Code
+
+---
+
+## 🛠 Tools Used
 - Python
 - Pandas
 - Google Colab
 
-## Outcome
-Dataset is now clean, consistent, and ready for analysis.
+---
+
+## ✅ Outcome
+The dataset is now clean, consistent, and ready for further analysis (EDA).
