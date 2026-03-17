@@ -1,0 +1,7 @@
+Column Name,Description,Data Type,Business Use
+Customer_ID,Unique ID of customer,Integer,Identify customers
+Age,Age of customer,Integer,Customer segmentation
+Gender,Gender (Male/Female),Categorical,Target marketing
+Purchase_Amount,Amount spent by customer,Float,Revenue analysis
+City,Customer city,Categorical,Regional analysis
+Subscription,Subscription status (Yes/No),Categorical,Customer retention
